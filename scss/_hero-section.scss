@@ -1,0 +1,142 @@
+// Hero section
+.hero-section{
+    background-color: $bg-color;
+
+    h1{
+        font-size: 46px;
+        font-weight: $font-weight;
+        width: 85%;
+        line-height: 69px;
+        @media (max-width:1399.98px){
+            width: 100%;
+        }
+        @media (max-width:1199.98px){
+            font-size: 38px;
+            line-height: 59px;
+        }
+        @media (max-width:991.98px){
+            font-weight: 600;
+            line-height: 44px;
+            font-size: 37px;
+        }
+        @media (max-width:767.98px) {
+            line-height: 39px;
+            font-size: 32px;
+        }
+        @media (max-width:575.98px) {
+            line-height: 50px;
+            font-size: $sub-title-font-size;
+        }
+        .Meeting-color{
+            color: $btn-nav-border-color;
+        }
+    }
+    .Masukkan-kode-btn{
+        @include btn-nav;
+        &:hover{
+            color: $white;
+        }
+        .fa-keyboard{
+            font-size: 22px;
+        }
+    }
+    .Pelajari-text{
+        color: $btn-nav-border-color;
+    }
+}
+// mengapa-section
+.mengapa-section{
+    background-color: $hero-bg-color;
+    h2{
+        font-size: $sub-title-font-size;
+        @media (max-width:1199.98px) {
+            font-size: $font-size-1200;
+        }
+        @media (max-width:767.98px) {
+            font-size: 30px;
+        }
+        @media (max-width:575.98px){
+            font-size: 35px;
+        }
+    }
+   .border-mengapa{
+        border: 2px solid $white;
+        width: 15%;
+        border-radius: 5px;
+    }
+    .Mengapa-btn{
+        @include btn-nav;
+        color: $google-color;
+    }
+        .google-main{
+            width: 100%;
+            .google-img-div{
+                width: 40%;
+                @media (max-width:575.98px) {
+                    width: 26%;
+                }
+            }
+            .Google-title{
+                font-size: 30px;
+                color: $google-color;
+            }
+            .google-text{
+                font-size: 20px;
+                // font-style: italic;
+            }
+        }    
+}
+
+// <!-- Versi Berbayar section -->
+
+.images-Group-div{
+    width: 60%;
+    @media (max-width:991.98px){
+        width: 80%;
+    }
+    @media (max-width:767.98px){
+        width: 100%;
+    }
+}
+.Versi-Berbayar-title{
+    font-size: $sub-title-font-size;
+    font-weight:$font-weight;
+    @media (max-width:1199.98px) {
+        font-size: $font-size-1200;
+    }
+    @media (max-width:767.98px) {
+        font-size: $font-size-767;
+    }
+    .Berbayar-color{
+        color: $btn-nav-border-color;
+    }
+}
+.Room-Unlimited-text{
+    font-weight: $font-weight;
+    .fa-circle-check{
+        color: $btn-nav-border-color;
+        font-size: 30px;
+    }
+    .fa-circle-xmark{
+        color: $red;
+        font-size: 30px;
+    }
+}
+.border-versi{
+    border-left: 2px solid $btn-nav-border-color;
+    height: 250px;   
+    margin-top: 40px;
+    @media (max-width:767.98px) {
+        border-left: none;
+        border-bottom: 2px solid $btn-nav-border-color;
+        width: 50%;
+        margin-left: 15px;
+        height: auto; 
+    }
+}
+.Beli-Sekarang-btn{
+    @include btn-nav;
+    background-color: $btn-nav-border-color;
+}
+
+

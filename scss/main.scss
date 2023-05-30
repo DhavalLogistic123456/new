@@ -1,0 +1,19 @@
+
+@import "../font/font-popping/stylesheet.css";
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    line-height: 27px;
+    font-style: normal;
+    font-size: 1rem;
+}
+@import "variables";
+@import "mixin";
+@import "navbar.scss";
+@import "hero-section.scss";
+@import "footer.scss";

@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <link rel="stylesheet" href="./scss/main.css">
+    <title>Index Page</title>
+</head>
+<body>
+    <main>
+
+        <header>
+            <nav class="navbar navbar-expand-lg my-lg-4">
+                <div class="container">
+                  <img src="./icon/logo.svg" class="navbar-brand" alt="nav-logo">
+
+                  <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#navbarTogglerDemo02"
+                   aria-controls="offcanvasExample" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+
+                  <div class="offcanvas offcanvas-start" id="navbarTogglerDemo02">
+                    <img src="./icon/logo.svg" class="navbar-logo" alt="nav-logo">
+                    <ul class="w-100 d-flex justify-content-end navbar-nav me-auto mb-2 mb-lg-0">
+                      <li class="nav-item">
+                        <a class="nav-link text-dark" aria-current="page" href="#">Home</a>
+                      </li>
+                      <li class="nav-item ms-lg-5">
+                        <a class="nav-link text-dark" href="#">About</a>
+                      </li>
+                      <li class="nav-item ms-lg-5">
+                        <a class="nav-link text-dark">Meeting<i
+                            class="fa-solid fa-angle-down ms-1"></i></a>
+                      </li>
+                        <li>
+                            <button class="ms-lg-5 btn btn-info py-3 px-5 btn-daftar me-4 text-white">Daftar</button>
+                            <button class="btn btn-outline-info btn-Masuk py-3 px-5">Masuk</button>
+                        </li>
+                    </ul>
+                  </div>
+                </div>
+              </nav>
+        </header>
+
+        <!-- Hero Section -->
+        <section class="hero-section py-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <h1 class="mt-0 mt-sm-5"><span class="Meeting-color">Meeting</span> online dengan semuanya hanya
+                            dengan <span class="Meeting-color">satu klik</span></h1>
+
+                        <div class="hero-btn-main mt-4 mt-sm-5">
+                            <!-- <button class="btn btn-info Buat-meeting-btn text-white py-3 px-4 mb-sm-3 mb-lg-0 me-sm-4"><i
+                                    class="pe-3 fa-solid fa-video"></i>Buat meeting</button> -->
+
+                                <button class="btn btn-info mb-2 mb-sm-0 py-3 px-4 btn-daftar me-sm-4 text-white"><i
+                                    class="pe-3 fa-solid fa-video"></i>Buat meeting</button>
+
+                                    <button class="btn btn-outline-info Masukkan-kode-btn py-3 px-3 mt-sm-4 mt-lg-0"><i
+                                        class="pe-2 fa-regular fa-keyboard"></i>Masukkan kode</button>
+                        </div>
+                        <p class="Pelajari-text mt-4 mt-lg-5">Pelajari lebih lanjut<i
+                                class="ps-3 fa-solid fa-arrow-right-long"></i></p>
+                    </div>
+                    <div class="col-sm-6">
+                        <img src="images/Group 8.svg" alt="hero-img" class="w-100">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Mengapa section -->
+        <section class="mengapa-section py-5">
+            <div class="container">
+                <div class="row justify-content-between">
+
+                    <div class="col-lg-5">
+                        <h2 class="text-white mt-5">Mengapa kami lebih direkomendasikan ?</h2>
+                        <div class="border-mengapa mt-4"></div>
+                        <p class="text-white mt-4 Mengapa-text">Alasan mengapa kostumer lebih memilih kami
+                            sehingga kami menempati peringkat ke 1</p>
+                        <button class="btn btn-light py-3 px-5 mt-4 Mengapa-btn">Mengapa</button>
+                    </div>
+
+                    <div class="col-lg-3 col-sm-6 mt-5 mt-lg-0">
+                        <div class="google-main bg-light py-5 me-5">
+                            <div class="pt-4 google-img-div m-auto">
+                                <img src="icon/google 1.svg" alt="google-logo" class=" w-100">
+                            </div>
+
+                            <div class="Google-title mt-4 text-center ">Google</div>
+                            <div class="mt-3 text-center">
+                                <img src="icon/star 1.svg" class="me-2">
+                                <img src="icon/star 2.svg" class="me-2">
+                                <img src="icon/star 3.svg">
+                            </div>
+                            <p class="google-text fst-italic text-center mt-4 px-lg-3 p-xl-0">“Very Nice Application and easy to
+                                use”</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6 mt-5 mt-lg-0">
+                        <div class="google-main bg-light py-5 me-5">
+                            <div class="google-img-div m-auto pt-4">
+                                <img src="icon/facebook 1.svg" alt="google-logo" class="text-center w-100">
+                            </div>
+
+                            <div class="Google-title mt-4 text-center">Facebook</div>
+                            <div class="mt-3 text-center">
+                                <img src="icon/star 1.svg" class="me-2">
+                                <img src="icon/star 2.svg" class="me-2">
+                                <img src="icon/star 3.svg">
+                            </div>
+                            <p class="google-text fst-italic text-center mt-4 px-lg-3 p-xl-0">“Beautifull application nice
+                                featured”</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Versi Berbayar section -->
+        <section class="my-5">
+            <div class="container">
+                     <div class="images-Group-div m-auto py-4">
+                        <img src="images/Group video-pana 1.svg" class="w-100">
+                    </div>
+                <div class="row my-5 justify-content-between">
+                    <div class="col-md-5 d-flex flex-column">
+
+                            <h2 class="Versi-Berbayar-title">Versi <span class="Berbayar-color">Berbayar</span></h2>
+
+                            <div class="Room-Unlimited-text d-flex mt-5">
+                                <i class=" fa-sharp fa-solid fa-circle-check me-4"></i>Room Unlimited
+                            </div>
+                            <div class="Room-Unlimited-text d-flex mt-4">
+                                <i class=" fa-sharp fa-solid fa-circle-check me-4"></i>Share Screen
+                            </div>
+                            <div class="Room-Unlimited-text d-flex mt-4">
+                                <i class=" fa-sharp fa-solid fa-circle-check me-4"></i>Chatting
+                            </div>
+                            <div class="Room-Unlimited-text d-flex mt-4">
+                                <i class=" fa-sharp fa-solid fa-circle-check me-4"></i>Translate
+                            </div>
+                            <div class="Room-Unlimited-text d-flex mt-4">
+                                <i class=" fa-sharp fa-solid fa-circle-check me-4"></i>Raise Hand
+                            </div>
+                    </div>
+                    <div class="col-md-2 border-versi"></div>
+
+                    <div class="col-md-5">
+                        <h2 class="Versi-Berbayar-title mt-5 mt-sm-5">Versi <span class="Berbayar-color">Gratis</span></h2>
+
+                        <div class="Room-Unlimited-text d-flex mt-5">
+                            <i class="fa-sharp fa-solid fa-circle-xmark me-4"></i>Room Unlimited
+                        </div>
+                        <div class="Room-Unlimited-text d-flex mt-4">
+                            <i class=" fa-sharp fa-solid fa-circle-check me-4"></i>Share Screen
+                        </div>
+                        <div class="Room-Unlimited-text d-flex mt-4">
+                            <i class=" fa-sharp fa-solid fa-circle-check me-4"></i>Chatting
+                        </div>
+                        <div class="Room-Unlimited-text d-flex mt-4">
+                            <i class="fa-sharp fa-solid fa-circle-xmark me-4"></i>Translate
+                        </div>
+                        <div class="Room-Unlimited-text d-flex mt-4">
+                            <i class=" fa-sharp fa-solid fa-circle-check me-4"></i>Raise Hand
+                        </div>
+                    </div>
+                </div>
+                <div class="text-sm-center mt-5">
+                    <button class="btn btn-info Beli-Sekarang-btn py-3 px-4 text-white">Beli Sekarang</button>
+                </div>
+            </div>
+        </section>
+
+        <footer class="footer">
+            <div class="container">
+                <div class="row pt-5 justify-content-lg-evenly">
+                    <div class="col-sm-6 col-lg-3 mt-4">
+                        <div class="mt-sm-5 text-white Powered-By">Powered By</div>
+                        <img src="icon/Group 5 (1).svg" alt="footer-logo" class="mt-4">
+                        <address class="text-white mt-4  fw-normal address">Creative Agency
+                            Kudus, East java, Indonesia</address>
+                    </div>
+                    <div class="col-sm-6 col-lg-3 mt-sm-4">
+                        <div class="mt-3 mt-sm-5 text-white Powered-By">Our Company</div>
+                        <div>
+                            <ul class="navbar-nav mt-3">
+                                <li class="items"><a href="#" class="nav-link">About Us</a></li>
+                                <li><a href="#" class="nav-link">Mlebuu Life</a></li>
+                                <li><a href="#" class="nav-link">Press</a></li>
+                                <li><a href="#" class="nav-link">Partners</a></li>
+                                <li><a href="#" class="nav-link"> Contact Us</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-lg-3 mt-4">
+                        <div class="mt-sm-5 text-white Powered-By">Our Service</div>
+                        <div>
+                            <ul class="navbar-nav mt-3">
+                                <li class="items"><a href="#" class="nav-link">Branding Strategy</a></li>
+                                <li><a href="#" class="nav-link">Marketing Strategy</a></li>
+                                <li><a href="#" class="nav-link">Branding Consultant</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-sm-5 col-lg-2 mt-4">
+                        <div class="mt-sm-5 text-white Powered-By">Legal</div>
+                        <div>
+                            <ul class="navbar-nav mt-3">
+                                <li class="items"><a href="#" class="nav-link">Terms & Condition</a></li>
+                                <li><a href="#" class="nav-link">Privacy Policy</a></li>
+                                <li><a href="#" class="nav-link">Cookies Policy</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </footer>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous">
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,21 @@
+.footer{
+    background-image:url(../images/Rectangle\ 16.svg);
+    background-size: cover;
+    height: 500px;
+    @media (max-width:991.98px) {
+        height: 800px;
+    }
+    @media (max-width:575.98px) {
+        height: 970px;
+    }
+    .Powered-By{
+        font-size: 22px;
+    }
+    .address{
+        width: 62%;
+    }
+    .nav-link{
+        color: $white;
+        font-weight: normal;
+    }
+}

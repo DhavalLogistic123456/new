@@ -1,0 +1,23 @@
+
+.navbar-logo{
+    width: 50%;
+    @media (min-width:991.98px) {
+        display: none;   
+    }
+
+}
+.btn-nav-main{
+    width: 29%;
+
+    .btn-daftar{
+        background-color: $btn-nav-border-color;
+        @include btn-nav;
+    }
+    .btn-Masuk{
+        @include btn-nav;
+        border: 2px solid $btn-nav-border-color;
+        &:hover{
+            color: $white;
+        }
+    }
+}
